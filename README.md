@@ -1,2 +1,3 @@
-# js-library
-Small and beautiful js library
+# clipboard.js-v2.0.4
+
+

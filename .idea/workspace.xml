@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a67c780-0654-4080-9876-3062c15de384" name="Default" comment="" />
+    <list default="true" id="9a67c780-0654-4080-9876-3062c15de384" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,14 +15,84 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="underscore-1.8.3.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/underscore-1.8.3/underscore-1.8.3.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/axios-0.19.0/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5022">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="axios.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/axios.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mergeConfig.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/core/mergeConfig.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Axios.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/core/Axios.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispatchRequest.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/core/dispatchRequest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterceptorManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/core/InterceptorManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5400">
+              <caret line="300" column="9" selection-start-line="300" selection-start-column="9" selection-end-line="300" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defaults.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/defaults.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/axios-0.19.0/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -44,6 +116,12 @@
       <find>selectTarget</find>
       <find>selectFake</find>
       <find>copyText</find>
+      <find>request</find>
+      <find>utils.merge</find>
+      <find>myRequestInterceptor</find>
+      <find>axios.interceptors.request</find>
+      <find>interceptors</find>
+      <find>dispatchRequest</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,6 +142,9 @@
         <option value="$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/demo.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/tiny-emitter-es6.js" />
+        <option value="$PROJECT_DIR$/axios-0.19.0/lib/axios.js" />
+        <option value="$PROJECT_DIR$/axios-0.19.0/lib/core/InterceptorManager.js" />
+        <option value="$PROJECT_DIR$/axios-0.19.0/lib/core/Axios.js" />
       </list>
     </option>
   </component>
@@ -74,18 +155,21 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/clipboard.js-v2.0.4/node_modules" />
+    <handled-path value="$PROJECT_DIR$/clipboard-2.0.4/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/clipboard.js-v2.0.4/package.json" />
+      <path value="$PROJECT_DIR$/axios-0.19.0/package.json" />
+      <path value="$PROJECT_DIR$/backbone-1.4.0/package.json" />
+      <path value="$PROJECT_DIR$/clipboard-2.0.4/package.json" />
+      <path value="$PROJECT_DIR$/jquery-3.2.1/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1041" />
-    <option name="y" value="66" />
-    <option name="width" value="864" />
-    <option name="height" value="783" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -99,16 +183,6 @@
             <path>
               <item name="js-librarys" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-librarys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js-librarys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-librarys" type="462c0819:PsiDirectoryNode" />
-              <item name="clipboard.js-v2.0.4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js-librarys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-librarys" type="462c0819:PsiDirectoryNode" />
-              <item name="underscore-1.8.3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -153,32 +227,34 @@
       <option name="presentableId" value="Default" />
       <updated>1552961088812</updated>
       <workItem from="1552961090216" duration="4932000" />
+      <workItem from="1553500485624" duration="6364000" />
+      <workItem from="1553511208550" duration="1195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4932000" />
+    <option name="totallyTimeSpent" value="12491000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20095314" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12802951" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.037037037" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.021943573" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,108 +264,79 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v/tiny-emitter.js">
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/axios.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v/tiny-emitter-es6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="486">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/test/clipboard.js">
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/core/mergeConfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1404">
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/node_modules/clipboard-js/clipboard.js">
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/core/Axios.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+        <state relative-caret-position="720">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/core/InterceptorManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="90">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/node_modules/good-listener/src/listen.js">
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="5400">
+          <caret line="300" column="9" selection-start-line="300" selection-start-column="9" selection-end-line="300" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/select.js">
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/defaults.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="504">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/node_modules/select/src/select.js">
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/src/clipboard.js">
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/core/dispatchRequest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="432">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/src/clipboard-action.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/underscore-1.8.3/underscore-1.8.3.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/clipboard-action.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-403">
-          <caret line="120" column="14" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v/tiny-emitter.js" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v/tiny-emitter-es6.js" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/test/clipboard.js" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/node_modules/clipboard-js/clipboard.js" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/package.json" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/node_modules/good-listener/src/listen.js" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/select.js" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/node_modules/select/src/select.js" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/src/clipboard.js" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/src/clipboard-action.js" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/clipboard-action.js" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/demo.html" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/readme.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -300,36 +347,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/tiny-emitter.js">
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/tiny-emitter.js" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/tiny-emitter-es6.js" />
+    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/clipboard.js" />
+    <entry file="file://$PROJECT_DIR$/underscore-1.8.3/underscore-1.8.3.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/examples/get/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="-224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/examples/get/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/examples/amd/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/examples/transform-response/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/examples/upload/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/examples/all/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/sandbox/client.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/dist/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/sandbox/client.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/examples/post/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/tiny-emitter-es6.js">
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/helpers/spread.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clipboard.js-v2.0.4/analyze/clipboard.js">
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/helpers/buildURL.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="132" column="18" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="389">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/underscore-1.8.3/underscore-1.8.3.js">
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5022">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="5400">
+          <caret line="300" column="9" selection-start-line="300" selection-start-column="9" selection-end-line="300" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="287" column="4" selection-start-line="287" selection-start-column="4" selection-end-line="287" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/defaults.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/core/mergeConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/core/InterceptorManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/core/Axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios-0.19.0/lib/core/dispatchRequest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

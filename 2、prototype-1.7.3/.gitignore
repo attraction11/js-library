@@ -1,7 +1,0 @@
-.DS_Store
-pkg
-test/unit/tmp/*
-test/unit/browsers.yml
-doc
-tmp
-*.pdoc.yaml

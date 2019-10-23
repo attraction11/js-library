@@ -1,9 +1,0 @@
-
-
-<% @suites.each do |suite| %>
-  <% if suite_has_html?(suite) %>
-    <div data-suite="<%= suite %>">
-      <%= erb(:"tests/#{suite}", :locals => { :name => suite }) %>
-    </div>
-  <% end %>
-<% end %>

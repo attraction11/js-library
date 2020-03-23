@@ -9,9 +9,12 @@ new Vue({
       message: 'Hello Vue!'
     }
   },
-  mounted() {
-    console.log(this.message)
-    console.log(this._data.message)
+  render(createElement) {
+    return createElement('div', {
+      attrs: {
+        id: 'app1'
+      }
+    }, this.message)
   }
 })
 

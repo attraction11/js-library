@@ -46,6 +46,7 @@ export function initMixin (Vue: Class<Component>) {
     if (process.env.NODE_ENV !== 'production') {
       initProxy(vm)
     } else {
+      // 生产环境
       vm._renderProxy = vm
     }
     // expose real self

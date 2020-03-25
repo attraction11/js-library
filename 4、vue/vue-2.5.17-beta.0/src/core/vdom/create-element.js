@@ -51,6 +51,7 @@ export function _createElement (
   children?: any,
   normalizationType?: number
 ): VNode | Array<VNode> {
+  // 不允许vnode data 是响应式对象
   if (isDef(data) && isDef((data: any).__ob__)) {
     process.env.NODE_ENV !== 'production' && warn(
       `Avoid using observed data object as vnode data: ${JSON.stringify(data)}\n` +
@@ -87,17 +88,17 @@ export function _createElement (
     data.scopedSlots = { default: children[0] }
     children.length = 0
   }
-  // 对child进行normalization
+  // 对child进行normalization，对子标签进行遍历，拍扁为一维数组
   if (normalizationType === ALWAYS_NORMALIZE) {
     children = normalizeChildren(children)
   } else if (normalizationType === SIMPLE_NORMALIZE) {
     children = simpleNormalizeChildren(children)
   }
   let vnode, ns
-  // 普通html标签渲染
   if (typeof tag === 'string') {
     let Ctor
     ns = (context.$vnode && context.$vnode.ns) || config.getTagNamespace(tag)
+    // 普通html原生标签的渲染
     if (config.isReservedTag(tag)) {
       // platform built-in elements
       vnode = new VNode(
@@ -108,6 +109,7 @@ export function _createElement (
     } else if (isDef(Ctor = resolveAsset(context.$options, 'components', tag))) {
       // component
       vnode = createComponent(Ctor, data, context, children, tag)
+    // 未知或未列出的命名空间元素的渲染
     } else {
       // unknown or unlisted namespaced elements
       // check at runtime because it may get assigned a namespace when its

@@ -1,5 +1,6 @@
 /* @flow */
 
+// 虚拟DOM是一个类
 export default class VNode {
   tag: string | void;
   data: VNodeData | void;

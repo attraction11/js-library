@@ -1,11 +1,26 @@
 <template>
     <div id="app">
         <img src="./assets/logo.png">
+        <div ref="msg" v-if="flag">
+            {{msg}}
+        </div>
+        <div v-else>
+            {{msg1}}
+        </div>
+        <div>{{test}}</div>
+        <ul>
+            <li v-for="item in items">{{item}}</li>
+        </ul>
+        <button @click="add">add</button>
+        <button @click="change">change</button>
+        <button @click="changeMsg">changeMsg</button>
+        <button @click="toggle">toggle</button>
         <HelloWorld/>
     </div>
 </template>
 
 <script>
+  import HelloWorld from './components/HelloWorld'
   import Vue from 'vue'
 
   export default {
@@ -20,6 +35,9 @@
         msg: 'hello msg',
         msg1: 'hello msg1'
       }
+    },
+    components: {
+      HelloWorld
     },
     methods: {
       change() {

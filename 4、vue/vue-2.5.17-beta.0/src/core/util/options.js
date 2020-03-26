@@ -132,7 +132,7 @@ strats.data = function (
 /**
  * Hooks and props are merged as arrays.
  */
-function mergeHook (
+function  mergeHook (
   parentVal: ?Array<Function>,
   childVal: ?Function | ?Array<Function>
 ): ?Array<Function> {

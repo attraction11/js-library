@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vue.esm.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vue.esm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/hello-world/node_modules/vue/dist/vue.esm.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="5955" column="37" selection-start-line="5955" selection-start-column="37" selection-end-line="5955" selection-end-column="37" />
+              <caret line="1521" column="10" selection-start-line="1521" selection-start-column="10" selection-end-line="1521" selection-end-column="10" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -26,15 +26,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="108">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#140#161#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main3.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -44,22 +53,26 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/hello-world/src/App.vue">
+      <file leaf-file-name="main1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main1.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="main-bak.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main-bak.js">
+      <file leaf-file-name="main2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="198">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#140#161#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main1.js">
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/hello-world/src/App.vue">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -85,14 +98,18 @@
       <find>vnode = createComponent</find>
       <find>debugger</find>
       <find>createComponent</find>
+      <find>resolveConstructorOptions</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/vue/hello-world/index.html" />
-        <option value="$PROJECT_DIR$/vue/hello-world/src/main.js" />
+        <option value="$PROJECT_DIR$/vue/hello-world/src/main-bak.js" />
+        <option value="$PROJECT_DIR$/vue/hello-world/src/main2.js" />
         <option value="$PROJECT_DIR$/vue/hello-world/node_modules/vue/dist/vue.esm.js" />
+        <option value="$PROJECT_DIR$/vue/hello-world/src/main3.js" />
+        <option value="$PROJECT_DIR$/vue/hello-world/src/main.js" />
       </list>
     </option>
   </component>
@@ -163,7 +180,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/04workspace/blindbox/nbsw/blindbox/branches/blindbox-473-2019.11.26/sw-blindbox-static" />
+    <property name="last_opened_file_path" value="E:/04workspace/监控平台/admonitor/frontend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -200,35 +217,35 @@
       <workItem from="1585026782998" duration="5839000" />
       <workItem from="1585114249960" duration="257000" />
       <workItem from="1585114677680" duration="12000" />
-      <workItem from="1585117607026" duration="3271000" />
+      <workItem from="1585117607026" duration="8611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16887000" />
+    <option name="totallyTimeSpent" value="22227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-1088" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17123288" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17123288" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32861477" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15571284" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15571284" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32888147" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,16 +461,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/hello-world/src/App-bak.vue" />
-    <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main-bak.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/hello-world/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -461,17 +468,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/hello-world/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main.js">
+    <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main-bak.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -481,9 +481,44 @@
     <entry file="file://$PROJECT_DIR$/vue/hello-world/node_modules/vue/dist/vue.esm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="5955" column="37" selection-start-line="5955" selection-start-column="37" selection-end-line="5955" selection-end-column="37" />
+          <caret line="1521" column="10" selection-start-line="1521" selection-start-column="10" selection-end-line="1521" selection-end-column="10" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/hello-world/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/hello-world/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -3,9 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 
-Vue.component('app', App)
-
-let app = new Vue({
+new Vue({
   el: '#app',
-  template: '<app></app>'
+  render(h) {
+    return h(App)
+  }
 })

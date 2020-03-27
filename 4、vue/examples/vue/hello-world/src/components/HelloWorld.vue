@@ -1,6 +1,7 @@
 <template>
   <div class="hello" @click="changeMsg">
-    <h1>{{ msg }}</h1>
+      <img src="../assets/logo.png">
+    <h1>{{ nested.msg }}</h1>
   </div>
 </template>
 
@@ -9,12 +10,14 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Hello Vue!'
+        nested: {
+          msg: 'Hello Vue!'
+        }
     }
   },
   methods: {
     changeMsg() {
-      this.msg = 'Hello World!'
+      this.nested.msg = 'Hello World!'
     }
   }
 }
@@ -24,5 +27,6 @@ export default {
 <style scoped>
 h1, h2 {
   font-weight: normal;
+  cursor: pointer;
 }
 </style>

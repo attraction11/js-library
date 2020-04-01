@@ -27,6 +27,7 @@ function flushCallbacks () {
 // needed (e.g. in event handlers attached by v-on).
 let microTimerFunc
 let macroTimerFunc
+// 默认使用微任务
 let useMacroTask = false
 
 // Determine (macro) task defer implementation.
@@ -62,6 +63,7 @@ if (typeof Promise !== 'undefined' && isNative(Promise)) {
   const p = Promise.resolve()
   microTimerFunc = () => {
     p.then(flushCallbacks)
+    // 废弃MutationObserver实现微任务
     // in problematic UIWebViews, Promise.then doesn't completely break, but
     // it can get stuck in a weird state where callbacks are pushed into the
     // microtask queue but the queue isn't being flushed, until the browser

@@ -181,9 +181,7 @@ export function defineReactive (
       }
       if (setter) {
         setter.call(obj, newVal)
-      } else {
-        val = newVal
-      }
+      } else {val = newVal}
       childOb = !shallow && observe(newVal)
       dep.notify()
     }

@@ -20,7 +20,7 @@
         this.$nextTick(() => {
           console.log('nextTick', this.$refs.msg.innerText)
         })
-        
+
         this.msg = 'Hello Vue'
         console.log('sync', this.$refs.msg.innerText)
 

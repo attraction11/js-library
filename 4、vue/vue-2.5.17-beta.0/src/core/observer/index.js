@@ -161,6 +161,7 @@ export function defineReactive (
       if (Dep.target) {
         dep.depend()
         if (childOb) {
+          // 子对象的依赖收集
           childOb.dep.depend()
           if (Array.isArray(value)) {
             dependArray(value)

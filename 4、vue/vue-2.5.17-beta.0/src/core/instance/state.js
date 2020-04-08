@@ -75,6 +75,7 @@ function initProps (vm: Component, propsOptions: Object) {
   }
   for (const key in propsOptions) {
     keys.push(key)
+    // 1、prop的校验和求值
     const value = validateProp(key, propsOptions, propsData, vm)
     /* istanbul ignore else */
     if (process.env.NODE_ENV !== 'production') {
@@ -86,6 +87,7 @@ function initProps (vm: Component, propsOptions: Object) {
           vm
         )
       }
+      // 2、将求值后的prop做成响应式
       defineReactive(props, key, value, () => {
         if (vm.$parent && !isUpdatingChildComponent) {
           warn(

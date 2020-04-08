@@ -53,7 +53,7 @@ export function lifecycleMixin (Vue: Class<Component>) {
     // 定义数据更新需要的变量
     const vm: Component = this
     const prevEl = vm.$el
-    const prevVnode = vm._vnode
+    const prevVnode = vm._vnode // prevVnode在组件更新中存在
     const prevActiveInstance = activeInstance
     activeInstance = vm
     vm._vnode = vnode

@@ -222,6 +222,7 @@ export function parseHTML (html, options) {
       }
     }
 
+    // 是否为一元自闭合标签
     const unary = isUnaryTag(tagName) || !!unarySlash
 
     const l = match.attrs.length

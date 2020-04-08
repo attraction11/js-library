@@ -279,6 +279,7 @@ export function parse (
         }
       }
     },
+
     comment (text: string) {
       currentParent.children.push({
         type: 3,
